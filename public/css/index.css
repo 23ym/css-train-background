@@ -137,12 +137,18 @@
   border-image-slice: 1%;
   border-image-width: 40px;
   box-sizing: border-box;
+  border-image-source: linear-gradient(blue,green);
 }
 
 .task32 {
   border-image-slice: 1%;
   border-image-width: 40px;
   box-sizing: border-box;
+  border-image-source: radial-gradient(
+    red 5%,
+    green 15%,
+    blue 60%
+  );
 }
 
 .task33 {
@@ -150,4 +156,6 @@
   box-sizing: border-box;
   border-image-width: 40px;
   border-image-slice: 10;
+  border-image-repeat: stretch;
 }
+
